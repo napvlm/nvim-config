@@ -103,4 +103,13 @@ return require("packer").startup(function(use)
 	use("theprimeagen/harpoon")
 
 	use("mbbill/undotree")
+
+	use({
+		"OlegGulevskyy/better-ts-errors.nvim",
+		config = function()
+			require("guess-indent").setup({})
+		end,
+	})
+
+	use("https://github.com/zivyangll/git-blame.vim")
 end)
