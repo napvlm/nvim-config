@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/napvlm/.cache/nvim/packer_hererocks/2.1.1699801871/share/lua/5.1/?.lua;/Users/napvlm/.cache/nvim/packer_hererocks/2.1.1699801871/share/lua/5.1/?/init.lua;/Users/napvlm/.cache/nvim/packer_hererocks/2.1.1699801871/lib/luarocks/rocks-5.1/?.lua;/Users/napvlm/.cache/nvim/packer_hererocks/2.1.1699801871/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/napvlm/.cache/nvim/packer_hererocks/2.1.1699801871/lib/lua/5.1/?.so"
+local package_path_str = "/Users/rbira027/.cache/nvim/packer_hererocks/2.1.1699524327/share/lua/5.1/?.lua;/Users/rbira027/.cache/nvim/packer_hererocks/2.1.1699524327/share/lua/5.1/?/init.lua;/Users/rbira027/.cache/nvim/packer_hererocks/2.1.1699524327/lib/luarocks/rocks-5.1/?.lua;/Users/rbira027/.cache/nvim/packer_hererocks/2.1.1699524327/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/rbira027/.cache/nvim/packer_hererocks/2.1.1699524327/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -77,64 +77,75 @@ _G.packer_plugins = {
   ["Comment.nvim"] = {
     config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0" },
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
   LuaSnip = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["better-ts-errors.nvim"] = {
+    config = { "\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17guess-indent\frequire\0" },
+    loaded = true,
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/better-ts-errors.nvim",
+    url = "https://github.com/OlegGulevskyy/better-ts-errors.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["conform.nvim"] = {
     config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fconform\frequire\0" },
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/conform.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/conform.nvim",
     url = "https://github.com/stevearc/conform.nvim"
+  },
+  ["git-blame.vim"] = {
+    loaded = true,
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/git-blame.vim",
+    url = "https://github.com/zivyangll/git-blame.vim"
   },
   ["git.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/git.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/git.nvim",
     url = "https://github.com/dinhhuy258/git.nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["guess-indent.nvim"] = {
     config = { "\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17guess-indent\frequire\0" },
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/guess-indent.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/guess-indent.nvim",
     url = "https://github.com/nmac427/guess-indent.nvim"
   },
   harpoon = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/harpoon",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["jest.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/jest.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/jest.nvim",
     url = "https://github.com/mattkubej/jest.nvim"
   },
   ["lexima.vim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/lexima.vim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/lexima.vim",
     url = "https://github.com//cohama/lexima.vim"
   },
   ["lspsaga.nvim"] = {
@@ -142,110 +153,114 @@ _G.packer_plugins = {
     load_after = {},
     loaded = true,
     needs_bufread = false,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/opt/lspsaga.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/opt/lspsaga.nvim",
     url = "https://github.com/nvimdev/lspsaga.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["none-ls.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/none-ls.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/none-ls.nvim",
     url = "https://github.com/nvimtools/none-ls.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-surround"] = {
     config = { "\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18nvim-surround\frequire\0" },
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/nvim-surround",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/nvim-surround",
     url = "https://github.com/kylechui/nvim-surround"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-ts-autotag"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["nvim-web-devicons"] = {
     loaded = false,
     needs_bufread = false,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["onedarkpro.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
     url = "https://github.com/olimorris/onedarkpro.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   undotree = {
     loaded = true,
-    path = "/Users/napvlm/.local/share/nvim/site/pack/packer/start/undotree",
+    path = "/Users/rbira027/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: Comment.nvim
-time([[Config for Comment.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
-time([[Config for Comment.nvim]], false)
--- Config for: conform.nvim
-time([[Config for conform.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fconform\frequire\0", "config", "conform.nvim")
-time([[Config for conform.nvim]], false)
--- Config for: nvim-surround
-time([[Config for nvim-surround]], true)
-try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18nvim-surround\frequire\0", "config", "nvim-surround")
-time([[Config for nvim-surround]], false)
 -- Config for: guess-indent.nvim
 time([[Config for guess-indent.nvim]], true)
 try_loadstring("\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17guess-indent\frequire\0", "config", "guess-indent.nvim")
 time([[Config for guess-indent.nvim]], false)
+-- Config for: Comment.nvim
+time([[Config for Comment.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
+time([[Config for Comment.nvim]], false)
+-- Config for: nvim-surround
+time([[Config for nvim-surround]], true)
+try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18nvim-surround\frequire\0", "config", "nvim-surround")
+time([[Config for nvim-surround]], false)
+-- Config for: better-ts-errors.nvim
+time([[Config for better-ts-errors.nvim]], true)
+try_loadstring("\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17guess-indent\frequire\0", "config", "better-ts-errors.nvim")
+time([[Config for better-ts-errors.nvim]], false)
+-- Config for: conform.nvim
+time([[Config for conform.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fconform\frequire\0", "config", "conform.nvim")
+time([[Config for conform.nvim]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
 vim.cmd [[ packadd nvim-lspconfig ]]
