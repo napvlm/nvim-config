@@ -96,6 +96,7 @@ return require("packer").startup(function(use)
 
 	use("lukas-reineke/indent-blankline.nvim")
 
+	use("nvimtools/none-ls-extras.nvim")
 	use("nvimtools/none-ls.nvim")
 
 	use("/cohama/lexima.vim")
