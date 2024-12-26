@@ -9,6 +9,9 @@ saga.setup({
 		html = "html",
 		css = "cssls",
 	},
+	symbol_in_winbar = {
+    enable = false, -- Disable the winbar feature
+  },
 })
 
 local opts = { noremap = true, silent = true }
