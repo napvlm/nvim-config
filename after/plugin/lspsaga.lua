@@ -8,6 +8,7 @@ saga.setup({
 		typescript = "typescript",
 		html = "html",
 		css = "cssls",
+		scss = "somesas_ls"
 	},
 	symbol_in_winbar = {
     enable = false, -- Disable the winbar feature

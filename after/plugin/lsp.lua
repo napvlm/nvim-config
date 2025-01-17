@@ -21,6 +21,8 @@ require("mason-lspconfig").setup({
 		"jsonls",
 		"lua_ls",
 		"tailwindcss",
+		"ts_ls",
+		"somesass_ls"
 	},
 })
 
@@ -52,7 +54,7 @@ lspconfig["html"].setup({
 })
 
 -- configure typescript server
-lspconfig["tsserver"].setup({
+lspconfig["ts_ls"].setup({
 	server = {
 		capabilities = lsp_capabilities,
 	},
@@ -69,6 +71,12 @@ lspconfig["cssls"].setup({
 	capabilities = lsp_capabilities,
 })
 
+-- configure scss server
+lspconfig["somesass_ls"].setup({
+	capabilities = lsp_capabilities,
+})
+
+
 -- configure tailwindcss server
 lspconfig["tailwindcss"].setup({
 	capabilities = lsp_capabilities,
@@ -77,12 +85,12 @@ lspconfig["tailwindcss"].setup({
 -- configure emmet language server
 lspconfig["emmet_ls"].setup({
 	capabilities = lsp_capabilities,
-	filetypes = { "html", "typescriptreact", "javascriptreact", "css", "scss" },
+	filetypes = { "html", "typescriptreact", "javascriptreact", "css" },
 })
 
 -- configure lua server (with special settings)
 lspconfig["lua_ls"].setup({
-	capabilities = capabilities,
+	capabilities = lsp_capabilities,
 	settings = { -- custom settings for lua
 		Lua = {
 			-- make the language server recognize "vim" global
