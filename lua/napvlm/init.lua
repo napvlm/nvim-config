@@ -19,3 +19,10 @@ require("ibl").setup()
 vim.diagnostic.config({
 	update_in_insert = true,
 })
+require('telescope').setup{
+  defaults = {
+    file_ignore_patterns = {
+      "node_modules"
+    }
+  }
+}
